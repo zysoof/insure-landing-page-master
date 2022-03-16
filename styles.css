@@ -298,7 +298,7 @@ footer ul h4{
 }
 @media screen and (min-width: 1440px) {
     body{
-        padding: 1rem  6rem;
+        padding: 1rem  10rem;
     }
     .logo, .menu-button{
         margin: 1.5rem 0;
@@ -307,8 +307,11 @@ footer ul h4{
         position: relative;
         text-align: justify;
         width: 100vw;
-        padding: 9rem 6.2rem;
+        padding: 9rem 10rem;
         background-image: none;
+    }
+    .intro-box p{
+        max-width: 57ch;
     }
     .intro-box::after{
         position: absolute;
@@ -322,12 +325,12 @@ footer ul h4{
         content: "";
         width: 7rem;
         height: 1px;
-        top: 15%;
+        top: 17%;
         position: absolute;
         background-color: var(--color-secondary3);
     }
     .intro-box p{
-        max-width: 60ch;
+        max-width: 56ch;
     }
     .intro-block{
         /* position: relative; */
@@ -345,8 +348,8 @@ footer ul h4{
         z-index: 2;
     }
     .intro-img{
-        left: 49%;
-        top: 15%;
+        left: 50%;
+        top: 19%;
      position: absolute;
      z-index: 1;
     }
@@ -415,7 +418,7 @@ footer ul h4{
        padding: 2rem 0;
    }
    .media:nth-child(2){
-       padding: 2rem 6rem;
+       padding: 2rem 2rem;
    }
    .media h3{
        font-size: 1.7rem;
@@ -448,7 +451,7 @@ footer ul h4{
       justify-content: space-between;
   }
   .footer-heading, .line-footer, .footer-lists{
-      width: 85%;
+      width: 77%;
   }
    .social-media{
        width: auto;
