@@ -60,6 +60,7 @@ h1, h2,h3,h5{
     margin: 1.5rem;
 }
 .nav-list h4{
+    color: var(--color-secondary3);
     text-align: center;
     margin: 0;
     padding: 1rem;
@@ -298,6 +299,7 @@ footer ul h4{
 }
 @media screen and (min-width: 1440px) {
     body{
+        width: 100vw;
         padding: 1rem  10rem;
     }
     .logo, .menu-button{
